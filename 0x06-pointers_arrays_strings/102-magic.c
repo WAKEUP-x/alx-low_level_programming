@@ -1,10 +1,5 @@
 #include <stdio.h>
 
-/*
- * n: An integer variable used to store an integer value.
- * a: An array of integers with a size of 5 elements.
- * p: A pointer to an integer, which will be used to point to the memory address of the integer variable n.
- */
 int main(void)
 {
 int n;
