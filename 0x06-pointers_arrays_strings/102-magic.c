@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+/*
+ * n: An integer variable used to store an integer value.
+ * a: An array of integers with a size of 5 elements.
+ * p: A pointer to an integer, which will be used to point to the memory address of the integer variable n.
+ */
 int main(void)
 {
 int n;
@@ -16,7 +21,7 @@ p = &n;
    * - only one statement
    * - you are not allowed to code anything else than this line of code
    */
-*(p + 7) = 98;
+*(p + 5) = 98;
   /* ...so that this prints 98\n */
 printf("a[2] = %d\n", a[2]);
 return (0);
